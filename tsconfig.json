@@ -1,0 +1,12 @@
+// tsconfig.json (루트)
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@common/*": ["packages/common/src/*"],
+      "@common/components/*": ["packages/common/src/components/*"],
+      "@common/utils/*": ["packages/common/src/utils/*"]
+    }
+  },
+  "include": ["apps", "packages"]
+}
