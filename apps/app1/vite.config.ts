@@ -5,6 +5,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/mono-repo/',
   resolve: {
     alias: {
       '@common': path.resolve(__dirname, '../../packages/common/src'),

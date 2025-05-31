@@ -8,7 +8,8 @@
     "target": "esnext",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noImplicitAny": false,       // ❗ any 허용
   },
   "include": ["src"]
 }
